@@ -1,6 +1,0 @@
-
-
-git branch -M main 브랜치명 변경(master -> main)
-git remote add origin "https://github.com/sadqurade777-maker/CloudService.git" ((remote-원격작업, 뒤의 로컬주소를 origin으로 대체)현재 작업중인 폴더(깃이 관리하는)를 원격 리포지토리 주소랑 바인딩하는 명령어. 기본은(별명) origin)
-* git push -u origin main (upload 현재폴더의 내용을 origin의 main에 올리기)
-git push(깃허브와 연동)할 때, 폴더 안에 commit -m내용이 있어야 하고, git 폴더에 사용자등록(git commit -m "" -> git config --global)을 해야 함
