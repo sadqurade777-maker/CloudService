@@ -7,6 +7,9 @@ checkout, log 등등 - vi편집기, j(아래), k(위), q(quit)
 2교시
 깃명령어
 git log --oneline (online x) 로그 한 줄로 표시
+git log --oneline --graph
 git fetch 
 
 git pull 원격리포지토리의 변경사항을 내컴퓨터와 동기화(<->git push)
+
+week06.txt 파일 merge conflict 해결
