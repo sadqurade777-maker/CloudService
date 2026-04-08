@@ -4,5 +4,9 @@
 checkout, log 등등 - vi편집기, j(아래), k(위), q(quit)
 깃/깃허브 충돌해결 오리앤테이션
 
+2교시
 깃명령어
 git log --oneline (online x) 로그 한 줄로 표시
+git fetch 
+
+git pull 원격리포지토리의 변경사항을 내컴퓨터와 동기화(<->git push)
