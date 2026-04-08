@@ -14,7 +14,7 @@ vi편집기 화면이 나타나면 j(아래), k(위), q(편집기 탈출)
 
 확인 git remote -v
 삭제 git remote remove origin
-등록 git remote add origin 주소
+등록 git remote add origin 내 원격리포지토리 주소
 
 git push
 ->
