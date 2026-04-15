@@ -13,3 +13,6 @@ pull requests > New pull request > Create pull request
 2교시
 amend 옵션
 2가지 conflicts 상황 해결
+
+git commit --amend -m ""
+-> git commit -m ""의 내용을 수정
