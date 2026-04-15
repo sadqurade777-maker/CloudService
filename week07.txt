@@ -16,3 +16,10 @@ amend 옵션
 
 git commit --amend -m ""
 -> git commit -m ""의 내용을 수정
+
+merge conflict 해결하기
+충돌난 파일내용 수정한 후
+git add .
+git commit -m "업데이트메시지"
+git push
+
