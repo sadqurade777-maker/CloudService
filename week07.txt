@@ -1,0 +1,15 @@
+1교시
+
+git add 취소: git reset
+
+리포지토리 fork
+배경화면에 git clone "리포지토리주소"
+cd, ls, touch, nano, git add , git commit -m, git push 
+
+fork한 리포지토리 pull request하기
+변경사항 저장 후
+pull requests > New pull request > Create pull request
+
+2교시
+amend 옵션
+2가지 conflicts 상황 해결
