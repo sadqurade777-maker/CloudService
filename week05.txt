@@ -10,7 +10,6 @@ vi편집기 화면이 나타나면 j(아래), k(위), q(편집기 탈출)
 
 2교시
 원저작자의 바인딩된 원격리포지토리 주소를 내 원격리포지토리 주소로 업데이트
-
 확인 git remote -v
 삭제 git remote remove origin
 등록 git remote add origin 내 원격리포지토리 주소
