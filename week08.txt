@@ -31,7 +31,7 @@ git init : 깃폴더 생성
 git status : 폴더 상태
 git history : 변경 이력 데이터
 git log : 변경 이력 출력
-git checkout : 과거 시점
+git checkout 해시코드 (특정 시점으로 이동), git checkout - (바로 이전으로 이동)
 git reset : git add 취소
 
 5주
