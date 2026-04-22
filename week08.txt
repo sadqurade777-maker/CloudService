@@ -1,2 +1,55 @@
 1교시 
 중간고사 (14:00 ~ 14:50)
+
+
+2주
+기초 리눅스 명령어
+ls : 폴더 보기
+ls -a : 숨긴 파일 포함 폴더 보기
+ls -l : 폴더 자세히 보기
+touch 파일명 : 빈 파일 생성
+cat 파일명 : 텍스트 파일 CLI 뷰어
+cd 폴더명 : 현재 폴더에서 지정한 하위 폴더로 이동
+cd .. : 현재 폴더에서 바로 상위 폴더로 이동
+
+3, 4주
+깃허브리포지토리(원격)와 내컴퓨터의 폴더(로컬) 연동하기
+1 폴더생성
+폴더 생성 - git init - 파일 생성 - git add - git commit -m "업데이트메시지"
+2 사용자 등록
+git config --global user.email "사용자 이메일 주소"
+git config --global user.name "사용자 필명"
+다시 한 번 git commit -m "업데이트메시지"
+3 연동을 위한 기본준비
+git remote add origin "주소" : 주소등록
+git branch -M main 브랜치명 변경(master->main)
+git push -u origin main 원격리포지토리에 업로드 및 동기화 
+연동이후는 git push만 해도 됨
+
+이외 깃 명령어
+git init : 깃폴더 생성
+git status : 폴더 상태
+git history : 변경 이력 데이터
+git log : 변경 이력 출력
+git checkout : 과거 시점
+git reset : git add 취소
+
+5주
+다른 사람의 원격리포지토리 클론
+배경화면에 git clone "주소" 혹은 폴더 생성 후 git clone "주소" .
+git config --list : 사용자 확인
+git remote -v : 주소확인 - git remote remove origin : 등록된 주소 삭제 - git remote add origin "주소" : 주소등록
+git push : 업로드
+
+6주 
+git log --oneline : 로그 한 줄로 표시, git log --oneline --graph: 로그 시각화
+git fetch: 원격리포지토리의 변경사항을 가져올 뿐, 병합(merge)하지 않음
+git pull: 원격리포지토리의 변경사항을 내컴퓨터와 동기화 <-> git push
+
+7주
+리포지토리 fork후, pull reqeust 하기
+git commit --amend -m " " : git commit -m " "의 내용을 수정
+merge conflict에 대해
+원격저장소와 내컴퓨터의 수정된 파일이 다르기 때문에 발생
+발생 및 해결
+> git pull - git push - merge conflict 발생 - 파일 내 충돌부분 수정 - git add . - git commit -m "업데이트메시지" - git push
