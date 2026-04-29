@@ -1,4 +1,6 @@
-git branch ai
-git branch iot
-git branch frontend
-git branch backend
+git branch 브랜치명 : 브랜치생성
+git switch 브랜치명 : 해당 브랜치로 전환
+파일생성-git add-git commit -m"" : 파일 생성 및 업로드
+git push -u origin 브랜치명 : 원격리포지토리에 업로드
+git merge iot : 브랜치 합체
+git log --graph --oneline : 명령어 한줄 확인
