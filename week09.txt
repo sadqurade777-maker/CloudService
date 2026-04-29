@@ -1,0 +1,4 @@
+git branch ai
+git branch iot
+git branch frontend
+git branch backend
