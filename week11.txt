@@ -1,9 +1,16 @@
 1교시
-10주차 복습
-
-명령어
 ls -l 파일명
 ip daar
 ipconfig : 아이피주소 확인
-ping IP주소 혹은 URL주소 : ping명령어
-ping-t IP주소 혹은 URL주소
+ping 아이피 : ping명령어
+chmod 500 파일명 : 권한부여
+
+2교시
+git checkout -b 브랜치명
+git switch -c 브랜치명
+
+파일편집기
+vi 파일명
+nano 파일명
+echo "파일내용" >> 파일명
+다른 브랜치에서 같은 파일 이름을 사용중일 때 충돌
