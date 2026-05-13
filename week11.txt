@@ -1,0 +1,9 @@
+1교시
+10주차 복습
+
+명령어
+ls -l 파일명
+ip daar
+ipconfig : 아이피주소 확인
+ping IP주소 혹은 URL주소 : ping명령어
+ping-t IP주소 혹은 URL주소
